@@ -1,0 +1,35 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(90deg, #efbdda, #a4d1fe);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    font-family: Monospace;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: #CCFFFF
+}
+
+.btn-text {
+    margin-right: 10px;
+}
+
+.none {
+    display: none;
+}
